@@ -98,13 +98,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
+           "styles": [
+  
+  "src/styles.css"
+],
+
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2e410978-9a4e-4386-9131-94f6752c7ba2"
   }
 }

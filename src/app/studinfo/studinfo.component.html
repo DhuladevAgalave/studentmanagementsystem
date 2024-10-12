@@ -1,0 +1,21 @@
+<!-- src/app/studinfo/studinfo.component.html -->
+<div class="container">
+    <h2>Student Information</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let student of students">
+          <td>{{ student.id }}</td>
+          <td>{{ student.name }}</td>
+          <td>{{ student.address }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
